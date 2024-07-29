@@ -1,0 +1,49 @@
+html{
+
+}
+.container-fluid .card{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    width: 100%;
+    animation: image 7s infinite alternate-reverse;
+}
+@keyframes image{
+    0%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(download\ \(4\).jpeg);
+        background-size: cover;
+    }
+    25%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(download\ \(5\).jpeg);
+        background-size: cover;
+    }
+    50%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(download\ \(6\).jpeg);
+        background-size: cover;
+    }
+    75%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(download\ \(7\).jpeg);
+        background-size: cover;
+    }
+    100%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+        background-size: cover;
+    }
+}
+.container .col img{
+    width: 500px;
+    height: 300px;
+}
+
+.container-fluid .row .col-2{
+    width: 90px;
+    height: 70px;
+    border-radius: 60px;
+}
+#uss .container-fluid .row .col{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(download\ \(6\).jpeg);
+    border-radius: 2rem;
+}
+.container-fluid .row .col-6{
+    width: 10%;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}

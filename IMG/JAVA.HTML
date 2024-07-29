@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+
+<Script>
+    const speech = "adjective"
+    const bird = "type of bird"
+    const room = "room in a house"
+    const tense = "verb"
+    const tensep = "verb (past tense)"
+    const family = "relative"
+    const typespeach = "noun"
+    const substance = "a liquid"
+    const conttense = "verb ending in -ing"
+    const body = "part of the body (plural)"
+    const typespeachp = "plural noun"
+    const tensev = "verb ending in -ing"
+
+   // document.write('It is a ' + '<u>' + speech + '</u>'  + '  ,cold November day.' + '<br>' + 'I woke up to the ' + '<u>' + speech + '</u>' + ' smell of ' + '<u>' + bird + '</u>' + '<br>' + ' roasting in the ' + '<u>' + room + '</u>' + ' downstairs. I' + '<br>' + '<u>' + tensep + '</u>'  + ' down the stairs to see if i could' + '<br>' + 'help ' + '<u>' + tense + '</u>'
+   //    + ' the dinner. My mom said,' + '<br>' + '"See if ' + '<u>' + family + '</u>'  + ' needs a fresh ' + '<u>' + typespeach + '</u>' + '" So I' + '<br>' + ' carried a tray of glasses full of ' + '<u>' + substance + '</u>' + ' into' + '<br>' + 'the ' + '<u>' + conttense + '</u>' + ' room.' + ' when i got there, I' + '<br>' + ' could not believe my' + '<u>' + body + '</u>'
+   //    + ' There were' + '<br>' + '<u>' + typespeachp + '</u> ' + '<u>' +  tensev + '</u>' + ' on the ' + '<u>' + typespeach + '</u>' 
+    //)
+
+    let my_date = new Date();
+    //document.write(my_date);
+
+    //GET YEAR
+    let currentYear = my_date.getFullYear();
+    document.write(currentYear);
+
+     //GET THE MONTH
+     let currentMonthsOfYear = my_date.getMonth();
+     let myMonthsOfYear = Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+    document.write(myMonthsOfYear[currentMonthsOfYear]);
+
+
+</Script>
+</html>

@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    background-size: center;
+}
+header h1{
+    color: white;
+}
+.container .nav-item:hover{
+    color: purple;
+}

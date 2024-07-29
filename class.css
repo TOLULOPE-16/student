@@ -1,0 +1,618 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color: rgb(213, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px;
+    position: fixed;
+    z-index: 20;
+    margin-top: -15px;
+}
+nav #icon{
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+nav #icon i{
+    font-size: 30px;
+}
+nav div{
+    /*padding:2px 0;
+    margin-bottom: 2px;*/
+}
+nav img{
+    height: 4rem;
+    padding: 0px 20px;
+    
+}
+nav ul{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0px 50px;
+}
+nav li{
+    justify-content: right;
+    margin-left: 7px;
+    margin-right: 7px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+nav li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 400ms;
+}
+#header-banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    background-size: cover;
+    padding: 8rem 3rem;
+    text-align: center;
+    background-position: 10rem;
+    width: 100%;
+    padding-top: 15rem;
+    animation: image 25s infinite alternate-reverse;
+}
+@keyframes image{
+    0%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(IMG/download\ \(4\).jpeg);
+        background-size: cover;
+    }
+    25%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(IMG/download\ \(5\).jpeg);
+        background-size: cover;
+    }
+    50%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(IMG/download\ \(6\).jpeg);
+        background-size: cover;
+    }
+    75%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(IMG/download\ \(7\).jpeg);
+        background-size: cover;
+    }
+    100%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+        background-size: cover;
+    }
+}
+
+#header-banner h1{
+    color: #fff;
+    font-size: 50px;
+}
+#header-banner p{
+    color: #eee;
+    font-size: 20px;
+    display: inline;
+}
+#header-banner hr{
+    width: 10%;
+    margin-bottom: 2rem;
+}
+#header-banner button{
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    transform: scale(1);
+    margin: 0px 15px;
+}
+#header-banner #lm{
+    background-color:rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 2px solid #fff;
+}
+#header-banner button:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+    z-index: 20;
+}
+
+#about-us{
+    padding: 0px 155px;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    vertical-align: top;
+}
+#about-us #content{
+    display: flex;
+    justify-content: center;
+}
+#about-us #content #item{
+    flex: 0 0 50%;
+    padding: 0px 20px;
+}
+#about-us #content #text{
+    flex: 0 0 50%;
+    padding-top: 0;
+    margin-top: 0;
+}
+#about-us #content p{
+    text-align: justify;
+}
+#about-us img{
+    width: 60%;
+    height: 300px;
+    display: inherit;
+}
+#about-us #content button{
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0);
+    cursor: pointer;
+}
+#about-us #content button:active{
+    border: 2px solid red;
+}
+
+/*section #service*/
+#services{
+    background-color: whitesmoke;
+    backg
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(download\ \(3\).jpeg);
+    background-size: contain;
+}
+#services #heading{
+   padding-top: 2rem;
+    text-align: center;
+    margin-bottom: 0%;
+}
+#services #heading:hover{
+    color: red;
+    transition: 500ms;
+}
+#services hr{
+    width: 10%;
+    height: 4px;
+    background-color: black;
+    border: none;
+    margin-top: 2px;
+    margin-bottom:  2rem;
+}
+#services hr:hover{
+    background-color: red;
+    transition: 500ms;
+}
+#services #main{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    /*background-color: black;*/
+    color: white;
+    /*text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;*/
+    
+}
+#services #subdiv1{
+   /* background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    background-size: contain;*/
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 2px;
+    padding-top: 2px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+}
+#services #subdiv1:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    background-size: contain;
+    background-color: red;
+    transition: 2000ms;
+}
+#services #subdiv2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 10rem;
+    padding-top: 2px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+}
+#services #subdiv2:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    background-size: contain;
+    background-color: red;
+    transition: 2000ms;
+}
+#services #subdiv3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 2px;
+    padding-top: 2px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+#services #subdiv3:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    background-size: contain;
+    background-color: red;
+    transition: 2000ms;
+}
+#services #subdiv4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 10rem;
+    padding-top: 2px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+#services #subdiv4:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(WhatsApp\ Image\ 2023-05-18\ at\ 8.10.20\ PM.jpeg);
+    background-size: contain;
+    background-color: red;
+    transition: 200.
+    0ms;
+}
+#services h1{
+    font-size: 24px;
+}
+#shop{
+    background-color: rgb(228, 59, 59);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #eee;
+    font-size: 20px;
+    font-size: 20px;
+    border-radius: 2rem;
+}
+#shop #shopnow{
+    /*text-decoration: underline;*/
+    cursor: pointer;
+}
+#shop #shopnow:hover{
+    /*text-decoration: underline;*/
+    color: rgb(103, 22, 22);
+    font-size: 40px;
+    transition: 1000ms;
+    /*transition-property: all;*/
+}
+#services #main #subdiv1 #new{
+    display: flex;
+    text-align: justify;
+}
+#services #main #subdiv1 img{
+    width: 60px;
+    border-radius: 40px;
+    display: inline;
+    margin-top: 2px;
+}
+#services #main #subdiv1 p{
+    margin-left: 12px;
+    margin-top: 0;
+}
+#services #main #subdiv2 #new2{
+    display: flex;
+    text-align: justify;
+}
+#services #main #subdiv2 img{
+    width: 60px;
+    border-radius: 40px;
+    display: inline;
+    margin-top: 2px;
+}
+#services #main #subdiv2 p{
+    margin-left: 14px;
+    margin-top: 0;
+}
+#services #main #subdiv3 #new3{
+    display: flex;
+    text-align: justify;
+}
+#services #main #subdiv3 img{
+    width: 60px;
+    border-radius: 40px;
+    display: inline;
+    margin-top: 2px;
+}
+#services #main #subdiv3 p{
+    margin-left: 14px;
+    margin-top: 0;
+}
+#services #main #subdiv4 #new4{
+    display: flex;
+    text-align: justify;
+}
+#services #main #subdiv4 img{
+    width: 60px;
+    border-radius: 40px;
+    display: inline;
+    margin-top: 2px;
+}
+#services #main #subdiv4 p{
+    margin-left: 14px;
+    margin-top: 0;
+}
+/* section id contact us form*/
+#contact-us #everything{
+    width: 100%;
+    display: block;
+}
+#contact-us form{
+    text-align: left;
+}
+#contact-us h1{
+    text-align: center;
+   margin-bottom: 0%;
+}
+#contact-us hr{
+    width: 10%;
+    height: 4px;
+    background-color: black;
+    border: none;
+    margin-top: 2px;
+    margin-bottom:  4rem;
+}
+#contact-us #everything{
+    display: flex;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: top;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+#contact-us #everything #fieldset{
+    width: 80%;
+    flex: 50%;
+    padding: 0px 2rem;
+    align-items: left;
+    border: 0;
+    margin-left: 4rem;
+    margin-bottom: 6rem;
+    border-color: black;
+    
+}
+#contact-us #names{
+    /*margin-left: 2rem;
+    margin-right: 2rem;*/
+    width: 100%;
+    display: flex;
+  
+}
+#contact-us #names #field{
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+}
+#contact-us #names #field input{
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    padding-bottom: 2rem;
+    border-width: 100%;
+}
+#contact-us #names #field label{
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    padding-bottom: 2rem;
+    border-width: 100%;
+}
+#contact-us #work{
+    display: block;
+    /*width: 100%;
+    margin-left: 1rem;
+    margin-right: 2rem;X
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;*/
+}
+#contact-us #work label{
+    margin-left: 3rem;
+}
+#contact-us #work input{
+    width: 77%;
+    margin-left: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-width: 100%;
+}
+#contact-us #text-me{
+    width: 100%;
+    margin-top: 2rem;
+}
+#contact-us #text-me label{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}#contact-us #text-me textarea{
+    width: 77%;
+    margin-left: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-width: 100%;
+}
+#contact-us #text-me textarea:hover{
+    width: 85%;
+}
+#contact-us button{
+    text-align: center;
+    background-color: rgb(109, 20, 20);
+    color: white;
+    width: 83.5%;
+    margin-left: 3rem;
+    font-size: large;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4rem;
+    margin-top: 8px;
+}
+#gallery h1{
+    text-align: center;
+}
+#gallery hr{
+    width: 10%;
+    height: 4px;
+    background-color: black;
+    border: none;
+    margin-top: 2px;
+    margin-bottom:  2rem;
+}
+#gallery #all{
+    margin-left: 8rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15px;
+    /*background-color: black;*/
+    color: white;
+}
+#gallery #all div{
+    display: inline-block;
+   /* width: 20%;*/
+}
+#gallery #all div img{
+    width: 350px;
+    height: 250px;
+    border-radius: 2rem;
+    transition: 500ms;
+}
+#gallery #all div img:hover{
+    transform: scale(1.2);
+    border-radius: 50px;
+    z-index: 60;
+    border: 7px solid #fff;
+}
+
+
+/* FOOTER*/
+footer{
+    display: gird;
+    width: 100%;
+    background-color: rgb(68, 65, 65);
+    color: #eee;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    align-items: top;
+    padding: 2rem 8rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url(IMG/download\ \(4\).jpeg);
+    background-size: contain;
+}
+footer #foot{
+    display: flex;
+    padding: 2px 2px;
+}
+footer #foot #imc{
+    display: inline;
+    padding: 0px 2px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+footer #foot #imc img{
+    padding: 0 20px;
+    width: 170px;
+    filter: drop-shadow(2px 1px 1px #fff);
+    margin-left: -1rem;
+}
+footer #foot #imc #newicon{ 
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: -0.5rem;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+footer #foot #imc h5{
+    margin-left: -0.5rem;
+    text-align: left;
+}
+footer #foot #imc h5 span{
+    font-size: large;
+}
+footer #foot #imc #calender{
+    margin-left: -1rem;
+    
+}
+footer #foot #im2{
+    text-align: left;
+    padding-top: 2px;
+    align-items: top;
+}
+footer #foot #imc2 h2{
+    font-size: large;
+    padding-left: 3rem;
+    margin-bottom: 0;
+    font-weight: 1000;
+
+}
+footer #foot #imc2 ul{
+    flex-wrap: wrap;
+    display: inline-block;
+    padding: 0px 50px;
+}
+footer #foot #imc2 ul li{
+    list-style-type: none;
+    margin-top: -2;
+    text-align: left;
+}
+footer #foot #esub{
+    display: flex;
+    padding: 8rem 0;
+    align-items: first baseline;
+    margin-right: 2rem;
+   
+}
+footer #foot #esub div form input{
+    display: flex;
+    /*width: 100%;*/
+    border-radius: 7px;
+    height: 2rem;
+    margin-right: 4px;
+}
+footer #foot #esub div form label{
+    position: absolute;
+}
+footer #foot #esub div button{
+    border-radius: 2rem;
+    background-color: blue;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    padding: 0 2rem;
+}
+footer #foot #imc3 ul{
+    flex-wrap: wrap;
+    display: inline-block;
+    padding: 0px 50px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+footer #foot #imc3 ul li{
+    list-style-type: none;
+    margin-top: -2;
+    text-align: left;
+}
